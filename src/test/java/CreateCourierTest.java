@@ -60,7 +60,7 @@ public class CreateCourierTest {
         String message = response.extract().path("message");
 
         assertEquals(SC_CONFLICT, statusCode);
-        assertEquals(message, "Этот логин уже используется. Попробуйте другой.");
+        assertEquals(message, "Этот логин уже используется");
     }
 
     @Test

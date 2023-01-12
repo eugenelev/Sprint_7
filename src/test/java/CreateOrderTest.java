@@ -22,7 +22,7 @@ public class CreateOrderTest {
 
 
     @Parameterized.Parameters
-    public static Object[][] getColor() {
+    public static Object[][] setColor() {
         return new Object[][]{
                 {new String[]{"BLACK"}},
                 {new String[]{"GREY"}},
